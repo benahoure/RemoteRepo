@@ -1,0 +1,9 @@
+#This is just a text
+
+#EC2 instance sample
+
+Ec2Instance:
+  Type: AWS::EC2::Instance
+  Properties:
+    AvailabilityZone: aa-example-1a
+    ImageId: ami-1234567890abcdef0
